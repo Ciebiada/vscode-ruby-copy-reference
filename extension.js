@@ -20,7 +20,7 @@ function getReference(document, selection) {
 }
 
 function activate(context) {
-    let disposable = vscode.commands.registerCommand('extension.copyReference', function () {
+    let disposable = vscode.commands.registerCommand('ruby.copyReference', function () {
         const editor = vscode.window.activeTextEditor
         if (!editor) return
     
