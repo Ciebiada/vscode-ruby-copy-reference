@@ -1,22 +1,24 @@
-# ruby-copy-reference-ruby
+# Ruby Copy Reference
 
-Minimalistic extension that let's you copy the whole path to the class or constant in Ruby
+Minimalistic extension inspired by RubyMine.
+It let's you copy the whole path to the class/constant/method in Ruby
 
 For instance:
 ```ruby
 module Foo
   module Bar
     class Bebop
+      SPIKE = 'spike'
     end
   end
 end
 ```
-Executing `copyReference` while hovering over `Bebop` will put `Foo::Bar::Bebop` into the system clipboard
-
+Executing `copyReference` with the cursor at `Bebop` will put `Foo::Bar::Bebop` into the system clipboard
+If cursor is at SPIKE it will copy `Foo::bar::Bebop::SPIKE` 
 
 This extension contributes the following commands:
 
-* `extension.copyReference`: copies reference to the class under cursor
+* `ruby.copyReference`: copies reference to the element under cursor
 
 Default keybinding is: `cmd+shift+alt+c`
 
