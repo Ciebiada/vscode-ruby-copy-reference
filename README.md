@@ -1,7 +1,7 @@
 # Ruby Copy Reference
 
 Minimalistic extension inspired by RubyMine.
-It let's you copy the whole path to the class/constant/method in Ruby
+It lets you copy the whole path to the class/constant/method in Ruby
 
 For instance:
 ```ruby
