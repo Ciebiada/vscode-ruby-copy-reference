@@ -3,7 +3,7 @@
     "displayName": "Ruby Copy Reference",
     "description": "",
     "repository": "https://github.com/ciebiada/vscode-ruby-copy-reference",
-    "version": "0.0.4",
+    "version": "0.1.0",
     "publisher": "ciebiada",
     "engines": {
         "vscode": "^1.21.0"
@@ -20,6 +20,13 @@
             {
                 "command": "ruby.copyReference",
                 "title": "Ruby: copy reference"
+            }
+        ],
+        "keybindings": [
+            {
+                "command": "ruby.copyReference",
+                "key": "ctrl+shift+alt+c",
+                "mac": "cmd+shift+alt+c"
             }
         ]
     },

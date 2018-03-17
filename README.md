@@ -17,3 +17,7 @@ Executing `copyReference` while hovering over `Bebop` will put `Foo::Bar::Bebop`
 This extension contributes the following commands:
 
 * `extension.copyReference`: copies reference to the class under cursor
+
+Default keybinding is: `cmd+shift+alt+c`
+
+Enjoy!
