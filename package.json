@@ -1,9 +1,9 @@
 {
     "name": "ruby-copy-reference",
-    "displayName": "ruby-copy-reference",
+    "displayName": "Ruby Copy Reference",
     "description": "",
     "repository": "https://github.com/ciebiada/vscode-ruby-copy-reference",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "ciebiada",
     "engines": {
         "vscode": "^1.21.0"
@@ -12,8 +12,7 @@
         "Other"
     ],
     "activationEvents": [
-        "onLanguage:ruby",
-        "onCommand:ruby.copyReference"
+        "*"
     ],
     "main": "./extension",
     "contributes": {
