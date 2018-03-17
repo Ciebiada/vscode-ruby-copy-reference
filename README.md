@@ -13,8 +13,8 @@ module Foo
   end
 end
 ```
-Executing `copyReference` with the cursor at `Bebop` will put `Foo::Bar::Bebop` into the system clipboard
-If cursor is at SPIKE it will copy `Foo::bar::Bebop::SPIKE` 
+Executing `copyReference` with the cursor at `Bebop` will put `Foo::Bar::Bebop` into the system clipboard.
+If cursor is at SPIKE it will copy `Foo::bar::Bebop::SPIKE`
 
 This extension contributes the following commands:
 

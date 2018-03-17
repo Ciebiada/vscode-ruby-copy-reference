@@ -3,7 +3,7 @@
     "displayName": "Ruby Copy Reference",
     "description": "Extension that let's you copy reference to class/constant/method in Ruby",
     "repository": "https://github.com/ciebiada/vscode-ruby-copy-reference",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "publisher": "ciebiada",
     "engines": {
         "vscode": "^1.21.0"
