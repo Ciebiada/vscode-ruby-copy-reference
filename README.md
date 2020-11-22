@@ -6,7 +6,7 @@ It lets you copy the whole path to the class/constant/method in Ruby
 For instance:
 ```ruby
 module Foo
-  module Bar
+  class Bar < Baz
     class Bebop
       SPIKE = 'spike'
     end

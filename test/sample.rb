@@ -1,5 +1,5 @@
 module Foo
-  module Bar
+  class Bar < Baz
     class Bebop
       SPIKE = 'spike'
     end

@@ -1,7 +1,7 @@
 const { Range, Position } = require('vscode')
 
 function findPath(text) {
-  const units = /(module|class)\s+(.+)/gm
+  const units = /(module|class)\s+([^<\n ]+)/gm
   let matched = []
   let match
   while ((match = units.exec(text)) !== null) {
